@@ -1,0 +1,32 @@
+# comments
+# case-sensitive characters are not taken into account
+#
+
+vlSingleString = exampleText
+
+# SINGLE-DIGIT PARAMETER
+
+ vlSingleInt = 23
+
+ # parameter is failed
+ vlSingleInt2 = 22в2
+
+  vlSingleFloat = 0.h7
+   vlSingleFloat2 = 3.d7
+
+
+vlStrConst2 = main2
+vlStrConst6 = main-simple
+vlStrConst45 = main-heavy
+
+emptyValue50 =
+
+value60 = 3.5f
+
+
+# multi-valued parameter
+# в
+
+vlSingleStringMultipleSpaces = "exampleText exampleText exampleText"
+vlSingleStringMultipleSpaces2 = "exampleText1 exampleText2 exampleText3 "
+vlMultipleList = d"exampleText1:exampleText2:exampleText3"d
