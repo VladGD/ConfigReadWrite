@@ -19,7 +19,7 @@
 
 Создаем экземпляр класса ConfigRead.java
 ```
-ConfigRd objCfg = new ConfigRead();
+ConfigRead objCfg = new ConfigRead();
 ```
 
 Устанавливаем настройки перед чтением конфиг-файла
@@ -131,7 +131,7 @@ List<String> getParameterMultiValues () - возвращает список зн
 
 ### Метод setListOfRequiredParametersObjects ()
 Перед чтением конфиг-файла можно указать список параметров, которые нужно прочитать.
-Дополнительно для каждого параметра можно указать требования к значениям:
+Дополнительно для каждого параметра можно указать требования к значениям.
 Пример кода:
 ```
 HashMap<String,HashMap<String,String>> parameters = new HashMap<>();
